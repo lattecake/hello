@@ -1,4 +1,4 @@
-FROM golang-1.11.4-alpine3.8 AS build-env
+FROM golang-1.11.4:alpine3.9 AS build-env
 
 ENV GO111MODULE=off
 ENV GO15VENDOREXPERIMENT=1
